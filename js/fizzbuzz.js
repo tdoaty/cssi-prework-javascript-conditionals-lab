@@ -2,10 +2,10 @@
 
 function fizzbuzz(num){
   if (num % 15===0){
-  output = "FizzBuzz";
+  return "FizzBuzz";
   } else if (num % 5===0){
-  output = "Buzz";
+  return "Buzz";
 } else if (num % 3 ===0){
-  output = "Fizz";
+  return "Fizz";
   }
 }
